@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5441913C17A0E64E007E3C1D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5441913B17A0E64E007E3C1D /* Cocoa.framework */; };
 		5441914D17A0E64F007E3C1D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ABD36C1738AF9500825BAD /* SenTestingKit.framework */; };
-		5441914E17A0E64F007E3C1D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5441913B17A0E64E007E3C1D /* Cocoa.framework */; };
 		5441915117A0E64F007E3C1D /* libUniversalDetectorOSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5441913A17A0E64E007E3C1D /* libUniversalDetectorOSX.a */; };
 		5441915717A0E64F007E3C1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5441915517A0E64F007E3C1D /* InfoPlist.strings */; };
 		5441915A17A0E64F007E3C1D /* UniversalDetectorOSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5441915917A0E64F007E3C1D /* UniversalDetectorOSXTests.m */; };
@@ -26,7 +24,6 @@
 		54ABD3231738AE2300825BAD /* UniversalDetector.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 54ABD3221738AE2300825BAD /* UniversalDetector.h */; };
 		54ABD3251738AE2300825BAD /* UniversalDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 54ABD3241738AE2300825BAD /* UniversalDetector.m */; };
 		54ABD36D1738AF9500825BAD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ABD36C1738AF9500825BAD /* SenTestingKit.framework */; };
-		54ABD36F1738AF9500825BAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ABD36E1738AF9500825BAD /* UIKit.framework */; };
 		54ABD3701738AF9500825BAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ABD31D1738AE2300825BAD /* Foundation.framework */; };
 		54ABD3761738AF9500825BAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54ABD3741738AF9500825BAD /* InfoPlist.strings */; };
 		54ABD3791738AF9500825BAD /* UniversalDetectorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 54ABD3781738AF9500825BAD /* UniversalDetectorTest.m */; };
@@ -204,10 +201,6 @@
 
 /* Begin PBXFileReference section */
 		5441913A17A0E64E007E3C1D /* libUniversalDetectorOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUniversalDetectorOSX.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5441913B17A0E64E007E3C1D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		5441913E17A0E64E007E3C1D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		5441913F17A0E64E007E3C1D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		5441914017A0E64E007E3C1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5441914317A0E64F007E3C1D /* UniversalDetectorOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UniversalDetectorOSX-Prefix.pch"; sourceTree = "<group>"; };
 		5441914C17A0E64F007E3C1D /* UniversalDetectorOSXTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniversalDetectorOSXTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5441915417A0E64F007E3C1D /* UniversalDetectorOSXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UniversalDetectorOSXTests-Info.plist"; sourceTree = "<group>"; };
@@ -216,12 +209,10 @@
 		5441915917A0E64F007E3C1D /* UniversalDetectorOSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniversalDetectorOSXTests.m; sourceTree = "<group>"; };
 		54ABD31A1738AE2300825BAD /* libUniversalDetector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUniversalDetector.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		54ABD31D1738AE2300825BAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		54ABD3211738AE2300825BAD /* UniversalDetector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UniversalDetector-Prefix.pch"; sourceTree = "<group>"; };
 		54ABD3221738AE2300825BAD /* UniversalDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UniversalDetector.h; sourceTree = "<group>"; };
 		54ABD3241738AE2300825BAD /* UniversalDetector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniversalDetector.m; sourceTree = "<group>"; };
 		54ABD36B1738AF9500825BAD /* UniversalDetectorTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniversalDetectorTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54ABD36C1738AF9500825BAD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		54ABD36E1738AF9500825BAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		54ABD3731738AF9500825BAD /* UniversalDetectorTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UniversalDetectorTest-Info.plist"; sourceTree = "<group>"; };
 		54ABD3751738AF9500825BAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		54ABD3771738AF9500825BAD /* UniversalDetectorTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UniversalDetectorTest.h; sourceTree = "<group>"; };
@@ -295,7 +286,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5441913C17A0E64E007E3C1D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +294,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5441914D17A0E64F007E3C1D /* SenTestingKit.framework in Frameworks */,
-				5441914E17A0E64F007E3C1D /* Cocoa.framework in Frameworks */,
 				5441915117A0E64F007E3C1D /* libUniversalDetectorOSX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,7 +311,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				54ABD36D1738AF9500825BAD /* SenTestingKit.framework in Frameworks */,
-				54ABD36F1738AF9500825BAD /* UIKit.framework in Frameworks */,
 				54ABD3701738AF9500825BAD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,16 +318,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5441913D17A0E64E007E3C1D /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5441913E17A0E64E007E3C1D /* AppKit.framework */,
-				5441913F17A0E64E007E3C1D /* CoreData.framework */,
-				5441914017A0E64E007E3C1D /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
 		5441914117A0E64E007E3C1D /* UniversalDetectorOSX */ = {
 			isa = PBXGroup;
 			children = (
@@ -403,9 +381,6 @@
 			children = (
 				54ABD31D1738AE2300825BAD /* Foundation.framework */,
 				54ABD36C1738AF9500825BAD /* SenTestingKit.framework */,
-				54ABD36E1738AF9500825BAD /* UIKit.framework */,
-				5441913B17A0E64E007E3C1D /* Cocoa.framework */,
-				5441913D17A0E64E007E3C1D /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -420,17 +395,8 @@
 				54FDB6B217CF179000D776C6 /* universaldetector */,
 				54ABD3221738AE2300825BAD /* UniversalDetector.h */,
 				54ABD3241738AE2300825BAD /* UniversalDetector.m */,
-				54ABD3201738AE2300825BAD /* Supporting Files */,
 			);
 			path = UniversalDetector;
-			sourceTree = "<group>";
-		};
-		54ABD3201738AE2300825BAD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				54ABD3211738AE2300825BAD /* UniversalDetector-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		54ABD3711738AF9500825BAD /* UniversalDetectorTest */ = {
@@ -1036,8 +1002,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/UniversalDetector.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UniversalDetector/UniversalDetector-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -1048,8 +1012,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/UniversalDetector.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UniversalDetector/UniversalDetector-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
