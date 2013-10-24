@@ -246,7 +246,7 @@ void nsUniversalDetector::DataEnd()
             }
             
             // Only report if we are confident.
-            if (maxProberConfidence > MINIMUM_THRESHOLD) Report(mCharSetProbers[maxProber]->GetCharSetName());
+            if (maxProberConfidence > MINIMUM_THRESHOLD && mCharSetProbers[maxProber]) Report(mCharSetProbers[maxProber]->GetCharSetName());
             
             break;
         }
