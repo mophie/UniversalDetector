@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "54ABD36A1738AF9500825BAD"
-               BuildableName = "UniversalDetectorTest.octest"
+               BuildableName = "UniversalDetectorTest.xctest"
                BlueprintName = "UniversalDetectorTest"
                ReferencedContainer = "container:UniversalDetector.xcodeproj">
             </BuildableReference>
