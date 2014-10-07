@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5441914D17A0E64F007E3C1D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ABD36C1738AF9500825BAD /* SenTestingKit.framework */; };
 		5441915117A0E64F007E3C1D /* libUniversalDetectorOSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5441913A17A0E64E007E3C1D /* libUniversalDetectorOSX.a */; };
 		5441915717A0E64F007E3C1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5441915517A0E64F007E3C1D /* InfoPlist.strings */; };
 		5441915A17A0E64F007E3C1D /* UniversalDetectorOSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5441915917A0E64F007E3C1D /* UniversalDetectorOSXTests.m */; };
@@ -23,7 +22,6 @@
 		54ABD31E1738AE2300825BAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ABD31D1738AE2300825BAD /* Foundation.framework */; };
 		54ABD3231738AE2300825BAD /* UniversalDetector.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 54ABD3221738AE2300825BAD /* UniversalDetector.h */; };
 		54ABD3251738AE2300825BAD /* UniversalDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 54ABD3241738AE2300825BAD /* UniversalDetector.m */; };
-		54ABD36D1738AF9500825BAD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ABD36C1738AF9500825BAD /* SenTestingKit.framework */; };
 		54ABD3701738AF9500825BAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ABD31D1738AE2300825BAD /* Foundation.framework */; };
 		54ABD3761738AF9500825BAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54ABD3741738AF9500825BAD /* InfoPlist.strings */; };
 		54ABD3791738AF9500825BAD /* UniversalDetectorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 54ABD3781738AF9500825BAD /* UniversalDetectorTest.m */; };
@@ -212,7 +210,6 @@
 		54ABD3221738AE2300825BAD /* UniversalDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UniversalDetector.h; sourceTree = "<group>"; };
 		54ABD3241738AE2300825BAD /* UniversalDetector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniversalDetector.m; sourceTree = "<group>"; };
 		54ABD36B1738AF9500825BAD /* UniversalDetectorTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniversalDetectorTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		54ABD36C1738AF9500825BAD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		54ABD3731738AF9500825BAD /* UniversalDetectorTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UniversalDetectorTest-Info.plist"; sourceTree = "<group>"; };
 		54ABD3751738AF9500825BAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		54ABD3771738AF9500825BAD /* UniversalDetectorTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UniversalDetectorTest.h; sourceTree = "<group>"; };
@@ -293,7 +290,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5441914D17A0E64F007E3C1D /* SenTestingKit.framework in Frameworks */,
 				5441915117A0E64F007E3C1D /* libUniversalDetectorOSX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,7 +306,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54ABD36D1738AF9500825BAD /* SenTestingKit.framework in Frameworks */,
 				54ABD3701738AF9500825BAD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,7 +375,6 @@
 			isa = PBXGroup;
 			children = (
 				54ABD31D1738AE2300825BAD /* Foundation.framework */,
-				54ABD36C1738AF9500825BAD /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -561,7 +555,7 @@
 			name = UniversalDetectorOSXTests;
 			productName = UniversalDetectorOSXTests;
 			productReference = 5441914C17A0E64F007E3C1D /* UniversalDetectorOSXTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		54ABD3191738AE2300825BAD /* UniversalDetector */ = {
 			isa = PBXNativeTarget;
@@ -596,7 +590,7 @@
 			name = UniversalDetectorTest;
 			productName = UniversalDetectorTest;
 			productReference = 54ABD36B1738AF9500825BAD /* UniversalDetectorTest.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -604,7 +598,8 @@
 		54ABD3121738AE2300825BAD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastTestingUpgradeCheck = 0600;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Ignition Soft";
 			};
 			buildConfigurationList = 54ABD3151738AE2300825BAD /* Build configuration list for PBXProject "UniversalDetector" */;
@@ -874,6 +869,7 @@
 		5441915B17A0E64F007E3C1D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
@@ -891,6 +887,7 @@
 		5441915C17A0E64F007E3C1D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1020,12 +1017,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UniversalDetectorTest/UniversalDetectorTest-Prefix.pch";
 				INFOPLIST_FILE = "UniversalDetectorTest/UniversalDetectorTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -1035,12 +1032,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UniversalDetectorTest/UniversalDetectorTest-Prefix.pch";
 				INFOPLIST_FILE = "UniversalDetectorTest/UniversalDetectorTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
